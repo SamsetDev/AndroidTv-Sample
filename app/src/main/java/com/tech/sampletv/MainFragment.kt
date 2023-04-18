@@ -21,6 +21,11 @@ class MainFragment : BrowseSupportFragment() {
         return inflater.inflate(R.layout.fragment_main, container, false)
     }
 
+    @RequiresApi(Build.VERSION_CODES.M)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        setupUiComponent()
+    }
 
     @RequiresApi(Build.VERSION_CODES.M)
     public fun setupUiComponent(){
