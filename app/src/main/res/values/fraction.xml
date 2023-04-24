@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fraction" type="fraction">5%</item>
+    <item name="parent_fraction" type="fraction">2%p</item>
+    <item name="lb_browse_header_unselect_alpha" type="fraction">50%</item>
+</resources>
